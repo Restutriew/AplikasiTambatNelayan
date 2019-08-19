@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aplikasi Tambat Nelayan</string>
+    <string name="title_activity_inputdata">Input Data</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="title_activity_pilihan">pilihan</string>
+    <string name="title_activity_history">history</string>
+
+</resources>
