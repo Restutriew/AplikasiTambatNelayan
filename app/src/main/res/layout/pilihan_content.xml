@@ -24,7 +24,7 @@
         <Button
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:id="@+id/inputcounter"
+            android:id="@+id/lihat_histori"
             android:text="Lihat History Input"/>
 
         <Button
