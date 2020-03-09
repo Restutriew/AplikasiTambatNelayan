@@ -4,7 +4,29 @@
 
     <string name="login_username">Username</string>
     <string name="login_password">Password</string>
+    <string name="login">Login</string>
+    <string name="daftar">Daftar</string>
+
     <string name="title_activity_pilihan">pilihan</string>
     <string name="title_activity_history">history</string>
+    <string name="title_activity_scanqrparkir">scanqrparkir</string>
+    <string name="title_activity_inputdatatambat">inputdatatambat</string>
+
+    <string name="scanqrtambat">Scan QR Tambat</string>
+    <string name="scanqrparkir">Scan QR Parkir</string>
+    <string name="inputdatatambat">Input Data Tambat</string>
+    <string name="inputdataparkir">Input Data Parkir</string>
+    <string name="logout">Logout</string>
+
+    <string name="inputdatakapalbaru">Input Data Kapal Baru</string>
+    <string name="namakapal">Nama Kapal</string>
+    <string name="namapemilikkapal">Nama Pemilik Kapal</string>
+    <string name="GT">GT</string>
+    <string name="input">Input</string>
+
+    <string name="inputdataparkirmobil">Input Data Parkir Mobil</string>
+    <string name="nomorpolisi">Nomor Polisi</string>
+
+
 
 </resources>

@@ -8,9 +8,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-
-
     <application
+        android:name=".intro.Home"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,21 +17,32 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".parkir.inputdataparkir"
+            android:label="@string/title_activity_inputdatatambat"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".parkir.scanqrparkir"
+            android:label="@string/title_activity_scanqrparkir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".history"
             android:label="@string/title_activity_history"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".pilihan.pilihan"
             android:label="@string/title_activity_pilihan"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".login.login" />
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".login.login"
+            android:screenOrientation="portrait"/>
         <activity
-            android:name=".input.inputdata"
+            android:name=".tambat.inputdatatambat"
             android:label="@string/title_activity_inputdata"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".intro.SplashActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -40,7 +50,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".mainActivity.MainActivity"
+            android:name=".tambat.scanqrtambat"
             android:theme="@style/AppTheme.TransparentTheme" />
     </application>
 

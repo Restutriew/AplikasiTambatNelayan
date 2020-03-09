@@ -1,4 +1,4 @@
-package com.zehstan.aplikasitambatnelayan.mainActivity;
+package com.zehstan.aplikasitambatnelayan.tambat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,12 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
 import com.google.zxing.Result;
-import com.zehstan.aplikasitambatnelayan.input.inputdata;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 
-public class MainActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler {
+public class scanqrtambat extends AppCompatActivity implements ZXingScannerView.ResultHandler {
     public static final String EXTRA_MESSAGE = "com.zehstan.aplikasitambatnelayan.MESSAGE";
     private ZXingScannerView mScannerView;
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements ZXingScannerView.
 //        AlertDialog alert1 = builder.create();
 //        alert1.show();
 
-        Intent intent = new Intent(this, inputdata.class);
+        Intent intent = new Intent(this, inputdatatambat.class);
 
         String message = rawResult.getText();
 
